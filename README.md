@@ -2,7 +2,7 @@
 
 Sebuah template portofolio dengan efek Glassmorphism yang minimalis dan modern. Template ini dirancang menggunakan HTML, CSS, dan JavaScript untuk memberikan tampilan yang menarik dan interaktif.
 
-![Preview](shalltear.vercel.app)
+![Preview](https://telegra.ph/file/9d7ccb00c37205a2e305c.jpg)
 
 ## Fitur
 
