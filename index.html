@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>ABOUT ME</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>ABOUT ME</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="glass-card">
-            <img src="https://telegra.ph/file/72208574d27b7e8d8eb97.jpg" alt="PROFILE" class="center-image">
-            <p class="description"><strong>Nova Patricia</strong></p>
-            <p class="description">Mimpi saya sedang dalam pembangunan.</p>
-        <div class="icon-container">
-  <a href="https://t.me/realenzy" target="_blank"><i class="fab fa-telegram"></i></a>
-  <a href="https://discord.gg/errnerllex" target="_blank"><i class="fab fa-discord"></i></a>
-  <a href="https://pin.it/2p5fwdM" target="_blank"><i class="fab fa-pinterest"></i></a>
-  <a href="#" onclick="sharePage()"><i class="fas fa-share-alt"></i></a>
-            </div>
-       </div>
-   </div>
-    <script>
-  function sharePage() {
-    const pageTitle = document.title;
-    const pageUrl = window.location.href;
+  <div class="container">
+    <div class="glass-card">
+      <img src="https://telegra.ph/file/72208574d27b7e8d8eb97.jpg" alt="PROFILE" class="center-image">
+      <p class="description"><strong>Ferdi Aprilyan</strong></p>
+      <p class="description">Mimpi saya sedang dalam pembangunan.</p>
+      <div class="icon-container">
+        <a href="https://t.me/akuniniterjual" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="https://discord.gg/4NO#5346" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="https://pin.it/2p5fwdM" target="_blank"><i class="fab fa-pinterest"></i></a>
+        <a href="#" onclick="sharePage()"><i class="fas fa-share-alt"></i></a>
+      </div>
+    </div>
+  </div>
+  <script>
+    function sharePage() {
+      const pageTitle = document.title;
+      const pageUrl = window.location.href;
 
-    if (navigator.share) {
-      navigator.share({
-        title: pageTitle,
-        url: pageUrl,
-      })
-      .catch(console.error);
-    } else {
-      alert('Fitur berbagi tidak tersedia pada browser Anda.');
+      if (navigator.share) {
+        navigator.share({
+          title: pageTitle,
+          url: pageUrl,
+        })
+        .catch(console.error);
+      } else {
+        alert('Fitur berbagi tidak tersedia pada browser Anda.');
+      }
     }
-  }
-</script>
+  </script>
 
 </body>
 </html>
