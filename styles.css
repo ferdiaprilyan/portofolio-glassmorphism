@@ -68,3 +68,11 @@ body {
 .icon-container a:hover {
   color: #ccc;
 }
+
+#footer {
+  color: #adadad;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
